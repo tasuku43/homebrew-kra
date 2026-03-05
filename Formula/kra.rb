@@ -3,25 +3,25 @@ class Kra < Formula
   homepage "https://github.com/tasuku43/kra"
   license "MIT"
 
-  version "0.1.3"
+  version "0.1.4"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/tasuku43/kra/releases/download/v0.1.3/kra_v0.1.3_macos_arm64.tar.gz"
-      sha256 "598e04cb212ba5e2508eb817c94c0ec320ed09e5ccfc22088fc4e488de742588"
+      url "https://github.com/tasuku43/kra/releases/download/v0.1.4/kra_v0.1.4_macos_arm64.tar.gz"
+      sha256 "906568e0ef3b5883ae22118089a430f11197c6a350ef7fd30171e94d569bac7d"
     else
-      url "https://github.com/tasuku43/kra/releases/download/v0.1.3/kra_v0.1.3_macos_x64.tar.gz"
-      sha256 "111e1a08a0697924ca30746f6834c49f369bfa51b830d72619a70d89bdd60f65"
+      url "https://github.com/tasuku43/kra/releases/download/v0.1.4/kra_v0.1.4_macos_x64.tar.gz"
+      sha256 "af3da7a41350ad9bbf6002860bf97a54186aec000e6305645f7cbb421bcff955"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/tasuku43/kra/releases/download/v0.1.3/kra_v0.1.3_linux_arm64.tar.gz"
-      sha256 "547f506b595d837c73fa2f33488ec677a40fe361be2e207acfb9eb54df438544"
+      url "https://github.com/tasuku43/kra/releases/download/v0.1.4/kra_v0.1.4_linux_arm64.tar.gz"
+      sha256 "9617f444cdd63574ea18f736ed3ba57197f51c76c3d69a63a2f5e458bad97fb7"
     else
-      url "https://github.com/tasuku43/kra/releases/download/v0.1.3/kra_v0.1.3_linux_x64.tar.gz"
-      sha256 "2dd40c2d0521b9592e74b43438811fb08d8b991338f9059be917fc45ed4de0e9"
+      url "https://github.com/tasuku43/kra/releases/download/v0.1.4/kra_v0.1.4_linux_x64.tar.gz"
+      sha256 "348fad42773fb6a7838bc247e54eb9a6dc1c27dc86c1d8bc711d9731676a430c"
     end
   end
 
